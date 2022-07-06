@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"/>
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/nav_trips"
+        android:icon="@drawable/ic_baseline_electric_car_24"
+        android:title="Trip"/>
+    <item
+        android:id="@+id/nav_notification"
+        android:icon="@drawable/ic_baseline_sms_24"
+        android:title="Notifications"/>
+    <item
+        android:id="@+id/nav_repair_service"
+        android:icon="@drawable/ic_baseline_home_repair_service_24"
+        android:title="Repair Service"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/nav_Logout"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Logout"/>
+
+    <item android:title="profile">
+
+                <menu>
+                    <item
+                        android:id="@+id/nav_login"
+                        android:icon="@drawable/ic_baseline_login_24"
+                        android:title="Login"/>
+
+
+                </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_rate_us"
+                android:icon="@drawable/ic_baseline_rate_review_24"
+                android:title="Rate Driver"/>
+        </menu>
+    </item>
+
+
+
+</menu>
